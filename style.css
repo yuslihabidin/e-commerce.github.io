@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Moonserrat";
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    width: 100%;
+}
+.nav-brand{
+    font-size: 26px;
+    color: #41362A;
+}
+.nav-brand span{
+    font-weight: bold;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: space-around;
+}
+.nav-link a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #41362A;
+}
+button.tombol-kedua{
+    padding: 14px 32px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #41362A;
+    color: #41362A;
+    font-weight: 500;
+}
+button.tombol-pertama{
+    padding: 14px 32px;
+    font-size: 14px;
+    background-color: #41362A;
+    border: 1px solid #41362A;
+    color: #fff;
+    font-weight: 500;
+}
+
+section.trend{
+    background-color: aqua;
+    height: 620px;
+    position: relative;
+}
+
+.menu-2{
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+}
+
+.heading-1{
+    font-family: "Poppins";
+    font-size: 64px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 126px;
+    margin-bottom: 32x;
+}
+
+.text-light{
+    font-size: 16px;
+    color: #fff;
+}
+
+.search-section{
+    margin: 48px 0;
+    height: 75px;
+    width: 80%;
+    color: #fff;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.342);
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: start;
+}
+
+.search-section img{
+    width: 32px;
+    padding: 0 24px;
+}
+.search{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    color: #fff;
+}
+
+input:focus{
+    outline: none;
+}
+
+.img-product img {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+.card-product{
+    padding: 16px 20px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    top: 30%;
+}
+.card-product h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #41362A;
+}
+,.card-product h1{
+    font-size: 48px;
+    color: #41362A;
+    font-weight: normal;
+}
+.card-product button{
+    padding: 14px 32px;
+    font-size: 14px;
+    background-color: #41362A;
+    border: 1px solid #41362A;
+    color: #fff;
+    font-weight: 500;
+}
